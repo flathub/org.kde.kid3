@@ -81,8 +81,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kid3/3.8.6/kid3-3.8.6.tar.xz",
-                    "sha256": "4788005a50b0f117b38586f0d570e8fb0769efdec86cba0cdf0a87c2bfae97a9"
+                    "url": "https://download.kde.org/stable/kid3/3.8.7/kid3-3.8.7.tar.xz",
+                    "sha256": "0ebf8d2e1e5a8c6e368d12add52c2aea671c3dfb805d1be18684cdb8ef259c8d"
                 }
             ]
         }
