@@ -48,7 +48,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/acoustid/chromaprint/archive/v1.5.0.tar.gz",
-                    "sha256": "5c8e0d579cb3478900699110aa961c1552a422a18741cf67dd62136b1b877c7b"
+                    "sha256": "5c8e0d579cb3478900699110aa961c1552a422a18741cf67dd62136b1b877c7b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 286,
+                        "stable-only": true,
+                        "url-template": "https://github.com/acoustid/chromaprint/archive/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -63,7 +69,13 @@
                 {
                     "type": "archive",
                     "url": "https://taglib.org/releases/taglib-1.12.tar.gz",
-                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703"
+                    "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1982,
+                        "stable-only": true,
+                        "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -82,7 +94,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kid3/3.9.1/kid3-3.9.1.tar.xz",
-                    "sha256": "37f1c3c1f267ecfcb8cbf1997080db7a8304a86f92b9118edb721364ca2df1c7"
+                    "sha256": "37f1c3c1f267ecfcb8cbf1997080db7a8304a86f92b9118edb721364ca2df1c7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1509,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kid3/$version/kid3-$version.tar.xz"
+                    }
                 }
             ]
         }
