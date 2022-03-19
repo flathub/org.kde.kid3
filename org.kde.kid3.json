@@ -5,38 +5,27 @@
     "sdk": "org.kde.Sdk",
     "command": "kid3",
     "rename-icon": "kid3",
-
     "finish-args": [
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--share=ipc",
         "--device=dri",
-
-        /* Required to load music metadata */
         "--share=network",
-
-        /* Required for input-output */
         "--filesystem=xdg-download",
         "--filesystem=xdg-music",
         "--env=TMPDIR=/var/tmp",
-
-        /* For MPRIS */
         "--own-name=org.mpris.MediaPlayer2.kid3"
     ],
-
     "cleanup": [
         "/man",
         "/share/man",
         "/include",
         "/lib/*.a",
         "/lib/*.la",
-        /* For support in both GNOME and KDE, Kid3 has independent components for KDE and Qt
-           Since we build against the KDE runtime, we don't need the -Qt metadata */
         "/share/**/*-qt.*",
         "/share/icons/**/**/**/*-qt.*"
     ],
-
     "modules": [
         {
             "name": "chromaprint",
@@ -47,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/acoustid/chromaprint/archive/v1.5.0.tar.gz",
-                    "sha256": "5c8e0d579cb3478900699110aa961c1552a422a18741cf67dd62136b1b877c7b",
+                    "url": "https://github.com/acoustid/chromaprint/archive/v1.5.1.tar.gz",
+                    "sha256": "a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 286,
@@ -68,7 +57,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://taglib.org/releases/taglib-1.12.tar.gz",
+                    "url": "https://taglib.github.io/releases/taglib-1.12.tar.gz",
                     "sha256": "7fccd07669a523b07a15bd24c8da1bbb92206cb19e9366c3692af3d79253b703",
                     "x-checker-data": {
                         "type": "anitya",
@@ -80,10 +69,11 @@
             ]
         },
         {
-
             "name": "kid3",
             "buildsystem": "cmake-ninja",
-            "make-install-args": [ "check" ],
+            "make-install-args": [
+                "check"
+            ],
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DWITH_APPS=KDE;Qt;CLI",
