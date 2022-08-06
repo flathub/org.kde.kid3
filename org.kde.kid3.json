@@ -83,8 +83,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kid3/3.9.1/kid3-3.9.1.tar.xz",
-                    "sha256": "37f1c3c1f267ecfcb8cbf1997080db7a8304a86f92b9118edb721364ca2df1c7",
+                    "url": "https://download.kde.org/stable/kid3/3.9.2/kid3-3.9.2.tar.xz",
+                    "sha256": "4785eff8f9b3299405d6d16d4904c58da8ac1ae83610a33a98f5681aeb4d9e89",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1509,
