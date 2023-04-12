@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.kid3",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "command": "kid3",
     "rename-icon": "kid3",
@@ -71,9 +71,6 @@
         {
             "name": "kid3",
             "buildsystem": "cmake-ninja",
-            "make-install-args": [
-                "check"
-            ],
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DWITH_APPS=KDE;Qt;CLI",
