@@ -120,6 +120,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kid3/$version/kid3-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "install-dir.patch"
                 }
             ]
         }
