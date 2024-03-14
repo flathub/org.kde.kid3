@@ -106,7 +106,8 @@
                 "-DWITH_APPS=KDE;Qt;CLI",
                 "-DWITH_ID3LIB=OFF",
                 "-DDOCBOOK_XSL_DIR=/usr/share/xml/docbook/xml/xsl-stylesheets",
-                "-DKDE_SKIP_TEST_SETTINGS=ON"
+                "-DKDE_SKIP_TEST_SETTINGS=ON",
+                "-DBUILD_WITH_QT6=ON"
             ],
             "sources": [
                 {
