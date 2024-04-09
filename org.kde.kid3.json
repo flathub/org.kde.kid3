@@ -73,25 +73,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://taglib.github.io/releases/taglib-2.0.tar.gz",
-                    "sha256": "e36ea877a6370810b97d84cf8f72b1e4ed205149ab3ac8232d44c850f38a2859",
+                    "url": "https://taglib.github.io/releases/taglib-2.0.1.tar.gz",
+                    "sha256": "08c0a27b96aa5c4e23060fe0b6f93102ee9091a9385257b9d0ddcf467de0d925",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1982,
                         "stable-only": true,
                         "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
                     }
-                },
-                {
-                    "type": "file",
-                    "url": "https://github.com/taglib/taglib/commit/c8c4e5fa.patch",
-                    "sha256": "321306346f8a049481b2fee93ccc73a3d4f831407798e50a62b1307274c0b61f"
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "patch -p1 -i c8c4e5fa.patch"
-                    ]
                 }
             ]
         },
