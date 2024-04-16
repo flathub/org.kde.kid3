@@ -48,43 +48,6 @@
             ]
         },
         {
-            "name": "utfcpp",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v4.0.5.tar.gz",
-                    "sha256": "ffc668a310e77607d393f3c18b32715f223da1eac4c4d6e0579a11df8e6b59cf",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 20545,
-                        "url-template": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "taglib",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-                "-DBUILD_SHARED_LIBS=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://taglib.github.io/releases/taglib-2.0.1.tar.gz",
-                    "sha256": "08c0a27b96aa5c4e23060fe0b6f93102ee9091a9385257b9d0ddcf467de0d925",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1982,
-                        "stable-only": true,
-                        "url-template": "https://taglib.github.io/releases/taglib-$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "kid3",
             "buildsystem": "cmake-ninja",
             "make-install-args": [
