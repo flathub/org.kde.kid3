@@ -72,17 +72,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kid3/$version/kid3-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "file",
-                    "url": "https://invent.kde.org/multimedia/kid3/-/commit/b3c65a8c1a3a4d6fe5655a5c2bf1c9e7eabb7ffb.patch",
-                    "sha256": "d5502567094c6331b5192775e58920ce0d92235f9de3c72d3736af7abd082523"
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "patch -p1 -i b3c65a8c1a3a4d6fe5655a5c2bf1c9e7eabb7ffb.patch"
-                    ]
                 }
             ]
         }
