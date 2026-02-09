@@ -61,6 +61,9 @@
                 "-DKDE_SKIP_TEST_SETTINGS=ON",
                 "-DBUILD_WITH_QT6=ON"
             ],
+            "post-install": [
+                "gunzip -S z /app/share/icons/hicolor/scalable/apps/kid3.svgz"
+            ],
             "sources": [
                 {
                     "type": "archive",
