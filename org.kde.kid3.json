@@ -19,10 +19,13 @@
     ],
     "cleanup": [
         "/man",
+        "/share/doc",
         "/share/man",
         "/include",
         "/lib/*.a",
         "/lib/*.la",
+        "/lib/cmake",
+        "/lib/pkgconfig",
         "/share/**/*-qt.*",
         "/share/icons/**/**/**/*-qt.*"
     ],
