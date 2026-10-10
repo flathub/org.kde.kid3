@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kid3/3.10.1/kid3-3.10.1.tar.xz",
-                    "sha256": "020c357c74c39c931435b49e7409328d0b7f6da5491b58c2f732ed7236ea9a45",
+                    "url": "https://download.kde.org/stable/kid3/3.10.2/kid3-3.10.2.tar.xz",
+                    "sha256": "ce776b87de4f7f35cc5223bc85c16c76c2afb9298b1a73fa795738be165037bb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1509,
